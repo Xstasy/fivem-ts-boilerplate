@@ -1,24 +1,11 @@
 fx_version 'adamant'
 game 'gta5'
 
-name 'fivem-ts-typeorm-boilerplate'
+name 'fivem-ts-boilerplate'
 version '1.0.0'
-description 'FiveM TypeScript TypeORM Boilerplate'
+description 'FiveM TypeScript Boilerplate'
 author 'Xstasy'
-url 'https://github.com/Xstasy/fivem-ts-typeorm-boilerplate'
-
--- REQUIRED FILES
-files {
-
-}
-
--- LOADSCREEN
--- loadscreen 'ui/loading/load.html'
--- loadscreen_manual_shutdown 'yes'
-
--- NUI UI PAGE
---ui_page 'ui/main/main.html'
-
+url 'https://github.com/Xstasy/fivem-ts-boilerplate'
 
 client_script 'client.js'
 server_script 'server.js'
