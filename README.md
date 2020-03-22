@@ -8,10 +8,10 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat" alt="License: MIT">
   </a>
   <a href="https://github.com/d0p3t/fivem-ts-boilerplate/commits/master">
-    <img src="https://img.shields.io/github/last-commit/d0p3t/fivem-ts-boilerplate.svg?style=flat" alt="Last commit">
+    <img src="https://img.shields.io/github/last-commit/Xstasy/fivem-ts-boilerplate.svg?style=flat" alt="Last commit">
   </a>
-  <a href="https://discord.d0p3t.nl">
-    <img src="https://img.shields.io/discord/330910293934997504?label=Discord" alt="Discord">
+  <a href="https://discord.gg/Cfk9Wyq">
+    <img src="https://img.shields.io/discord/687529199254503452?label=Discord" alt="Discord">
   </a>
 </p>
 
