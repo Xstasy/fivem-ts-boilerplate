@@ -15,12 +15,13 @@
   </a>
 </p>
 
-This is a basic boilerplate for creating a FiveM resource using Typescript. It includes webpack config files and a directory structure to get you started. We recommend to use [fivem-js](https://github.com/d0p3t/fivem-js) alongside this boilerplate for faster development of client scripts.
+This is a basic boilerplate for creating a FiveM resource using Typescript. It includes a webpack config file and a directory structure to get you started. We recommend to use [fivem-js](https://github.com/d0p3t/fivem-js) alongside this boilerplate for faster development of client scripts.
 
 ## Usage
-1. Clone repository into your `resources/[local]` folder.
+1. Clone repository to wherever you want.
 2. `npm i` or `yarn` to install the dependencies.
-3. Start development.
+3. Change lines at top of webpack.config.js to reflect your desired settings.
+4. Start development.
 
 ### Development
 Use `npm run watch` or `yarn watch` to watch files during development.
@@ -29,16 +30,6 @@ Use `npm run watch` or `yarn watch` to watch files during development.
 Build your production ready code with `npm run build` or `yarn build`.
 
 This will build the client and server script with the `--mode production` flag.
-
-### Automatic Builds (Optional)
-The `fxmanifest.lua` is not setup to automatically build upon first FXServer start. If you'd like to setup automatic builds you must add the following to your `fxmanifest.lua`.
-
-```lua
-dependency 'yarn'
-dependency 'webpack'
-
-webpack_config 'webpack.config.js'
-```
 
 ## License
 This product is MIT licensed. Please make sure you give credit and include this license in your product.
