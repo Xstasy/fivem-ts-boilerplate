@@ -5,11 +5,11 @@ const path          = require('path');
 const fs            = require('fs');
 
 const serverPath    = 'C:/FiveM/server';
-const resourceName  = 'System';
+const resourceName  = 'fivem-ts-boilerplate';
 
 // RCON Connection for hot-reload
 const rcon = new Rcon({
-    address: '192.168.13.37',
+    address: '127.0.0.1',
     port: 30120,
     password: 'Covid-19'
 });
