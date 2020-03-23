@@ -1,6 +1,6 @@
 const nodeExternals = require('webpack-node-externals');
 const webpack       = require('webpack');
-const Rcon       	= require('quake3-rcon');
+const Rcon          = require('quake3-rcon');
 const path          = require('path');
 const fs            = require('fs');
 
